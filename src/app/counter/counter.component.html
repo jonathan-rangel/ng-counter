@@ -1,0 +1,12 @@
+<h1 class="title container"> {{ title }} </h1>
+
+<div class="container">
+    <h2 class="counter-text"> {{ number_main }} </h2>
+
+    <div class="container-buttons">
+        <button (click)="operation( 'x' )">x2</button>
+        <button (click)="operation( '/' )">/2</button>
+        <button (click)="operation( '+' )">+2</button>
+        <button (click)="operation( '-' )">-2</button>
+    </div>
+</div>
